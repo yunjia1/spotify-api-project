@@ -123,3 +123,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# json
+.json
+json
+spotify-project-351223-6241061dba93.json

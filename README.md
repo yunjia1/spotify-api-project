@@ -1,2 +1,2 @@
-# spotify-api-project
- 
+# spotipy-wrapped
+
