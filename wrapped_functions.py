@@ -124,8 +124,8 @@ def insert_reccs_to_gsheet(index, genre_number, genres, genres_to_artist, artist
     if (artist_len > 2):
         artist_len = 2
     lim = 10
-    recommendations = sp.recommendations(
-        seed_artists=artist_ids[0:artist_len], limit=lim)
+    recommendations = sp.recommendations(seed_artists=genres_to_artist[genre][0:artist_len], limit=lim)
+
     tracks = []
     for i in range(0, lim):
         iD = recommendations['tracks'][i]['id']
